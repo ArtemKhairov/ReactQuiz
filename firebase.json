@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "UBEREATS",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

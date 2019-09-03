@@ -1,0 +1,34 @@
+[debug] [2019-05-12T15:22:38.694Z] ----------------------------------------------------------------------
+[debug] [2019-05-12T15:22:38.709Z] Command:       F:\Main\Programs\WebDeveloping\node\node.exe C:\Users\Артём\AppData\Local\Yarn\Data\global\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-05-12T15:22:38.709Z] CLI Version:   6.9.2
+[debug] [2019-05-12T15:22:38.709Z] Platform:      win32
+[debug] [2019-05-12T15:22:38.709Z] Node Version:  v10.15.1
+[debug] [2019-05-12T15:22:38.709Z] Time:          Sun May 12 2019 22:22:38 GMT+0700 (GMT+07:00)
+[debug] [2019-05-12T15:22:38.709Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-12T15:22:38.709Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-12T15:22:38.709Z] > authorizing via signed-in user
+[debug] [2019-05-12T15:22:38.709Z] [iam] checking project react-quiz-44123 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-05-12T15:22:38.725Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/react-quiz-44123:testIamPermissions  
+
+[debug] [2019-05-12T15:22:40.072Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-12T15:22:40.074Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/react-quiz-44123  
+ 
+[debug] [2019-05-12T15:22:40.676Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'react-quiz-44123'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-05-12T15:22:40.676Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/react-quiz-44123/versions  
+
+[debug] [2019-05-12T15:22:42.975Z] <<< HTTP RESPONSE 200
+[info] i  hosting[react-quiz-44123]: beginning deploy...
+[info] i  hosting[react-quiz-44123]: found 2 files in UBEREATS
+[debug] [2019-05-12T15:22:42.975Z] [hosting] hash cache [VUJFUkVBVFM] not populated
+[debug] [2019-05-12T15:22:42.991Z] [hosting] hash cache [VUJFUkVBVFM] stored for 2 files
+[debug] [2019-05-12T15:22:42.991Z] [hosting][hash queue][FINAL]
+[debug] [2019-05-12T15:22:42.991Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/react-quiz-44123/versions/1447d51c912a798c:populateFiles  
+ <request body omitted>
+[debug] [2019-05-12T15:22:44.543Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-12T15:22:44.543Z] [hosting][populate queue][FINAL]
+[debug] [2019-05-12T15:22:44.543Z] [hosting] uploads queued: 2
